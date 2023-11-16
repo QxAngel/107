@@ -1,0 +1,53 @@
+body {
+    background-color: #1f1f1f;
+    color: red !important;
+}
+
+.container {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.container h1 {
+    color: red;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.container #logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.container .alert-info {
+    background-color: #17a2b8;
+}
+
+.container .btn-google-drive,
+.container .btn-github,
+.container .btn-custom {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container .btn-google-drive:hover,
+.container .btn-github:hover,
+.container .btn-custom:hover {
+    background-color: #f5f5f5;
+    color: #1f1f1f;
+}
+
+.container .alert-info p.small {
+    font-size: 40px;
+}
+
+.container footer {
+    background-color: #f8f9fa;
+    color: #ff6600;
+    margin-top: 20px;
+}
